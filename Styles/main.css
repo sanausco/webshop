@@ -1,0 +1,186 @@
+body{
+	font-family: arial , helvetica , sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	background-color: #19334d;
+
+}
+
+
+header{
+	background-color: #19334d;
+	width: 100%;
+	min-height: 100px;
+	border-bottom: black 3px solid;
+}
+
+header #logo{
+	float: left;
+
+}
+
+#logo h1{
+	padding: 10px 0 0 30px;
+	color: black;
+}
+
+header nav{
+	
+	float: right;
+	margin-top: 10px;
+	padding-right: 30px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 10px 20px 0 40px ;
+
+}
+
+header a {
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: red;
+	font-weight: bold;
+}
+
+.content{
+	width: 100%;
+	min-height: 700px;
+	background: url('../Images/background.jpg');
+	background-size: cover;
+	padding: 20px 0 20px 0;
+
+}
+
+footer{
+	border-top: black 3px solid;
+ 	position:absolute;
+ 	
+ 	width: 99%;
+ 	height:60px;
+ 	background-color:#19334d;
+}
+
+footer h3{
+	margin-left: 550px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: Bold;
+
+}
+
+#login_form{
+	
+	border-style: solid;
+	width: 300px;
+	height: 150px;
+	margin-left: 500px;
+	margin-top: 200px;
+	background-color: #19334d;
+} 
+
+#willkommen{
+	color: red;
+	margin-top: 180px;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#kontakt{
+	margin-left: 350px;
+	margin-top: 150px;
+	border-style: solid;
+	width: 600px;
+	height: 200px;
+	background-color: #19334d;
+	padding-left: 50px;
+}
+
+
+
+img{
+	height: 40%;
+	width:40%;
+}
+
+table{
+	border-collapse: collapse;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+th{
+	background-color: #00b3b3 ;
+	color: white;
+}
+
+td{
+	color: #00b3b3;
+}
+
+th, td{
+	text-align: left;
+	padding: 8px;
+	
+}
+
+
+.produkt{
+
+float: left; 
+width: 20%; 
+padding: 5px; 
+margin: 2%;
+background: #eee; 
+box-sizing: border-box;
+text-align: center;
+
+background: rgba(241,231,103,1);
+background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+background: -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -o-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -ms-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+
+}
+/*using http://www.cssmatic.com*/
+.produkt.form{
+border-radius: 107px 107px 107px 107px;
+-moz-border-radius: 107px 107px 107px 107px;
+-webkit-border-radius: 107px 107px 107px 107px;
+border: 0px solid #000000;
+}
+
+/*using http://www.cssmatic.com*/
+.produkt.color{
+background: rgba(252,234,187,1);
+background: -moz-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,234,187,1)), color-stop(50%, rgba(252,205,77,1)), color-stop(51%, rgba(248,181,0,1)), color-stop(100%, rgba(251,223,147,1)));
+background: -webkit-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+background: -o-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+background: -ms-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+background: linear-gradient(to right, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=1 );
+}
+
+.produkt.shadow{
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+
